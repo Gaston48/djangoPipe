@@ -21,4 +21,46 @@ class Dummy():
             d = "auch nicht möglich"
         elif (1 == 1):
             d = "weiss nix mehr"
+        elif (a == b):
+            d = "nicht möglich"
+        elif (a == c):
+            d = "auch nicht möglich"
+        elif (1 == 1):
+            d = "weiss nix mehr"
+        elif (a == b):
+            d = "nicht möglich"
+        elif (a == c):
+            d = "auch nicht möglich"
+        elif (1 == 1):
+            d = "weiss nix mehr"
+        elif (a == b):
+            d = "nicht möglich"
+        elif (a == c):
+            d = "auch nicht möglich"
+        elif (1 == 1):
+            d = "weiss nix mehr"
+        elif (a == b):
+            d = "nicht möglich"
+        elif (a == c):
+            d = "auch nicht möglich"
+        elif (1 == 1):
+            d = "weiss nix mehr"
+        elif (a == b):
+            d = "nicht möglich"
+        elif (a == c):
+            d = "auch nicht möglich"
+        elif (1 == 1):
+            d = "weiss nix mehr"
+        elif (a == b):
+            d = "nicht möglich"
+        elif (a == c):
+            d = "auch nicht möglich"
+        elif (1 == 1):
+            d = "weiss nix mehr"
+        elif (a == b):
+            d = "nicht möglich"
+        elif (a == c):
+            d = "auch nicht möglich"
+        elif (1 == 1):
+            d = "weiss nix mehr"
         return d
