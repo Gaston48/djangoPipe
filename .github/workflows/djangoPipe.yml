@@ -54,6 +54,21 @@ jobs:
           coverage run manage.py test
           coverage report
 
-      - name: Django Testing
-        run: |
-          python3 manage.py test
+      - name: Build a Docker Version
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        name: Check out code
+
+      - uses: mr-smithers-excellent/docker-build-push@v5
+        name: Build & push Docker image
+        with:
+          image: hempelscontainer/testkiste
+          registry: docker.io
+#          dockerfile: Dockerfile.ci
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
