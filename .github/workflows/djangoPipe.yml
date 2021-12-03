@@ -56,11 +56,11 @@ jobs:
 
       - name: Build a Docker Version
 
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
+#  publish:
+#    needs: build
+#    runs-on: ubuntu-latest
 
-    steps:
+#    steps:
       - uses: actions/checkout@v2
         name: Check out code
 
